@@ -1,0 +1,86 @@
+/* Footer Styles */
+.footer {
+    background-color: wheat;
+    color: black;
+    padding: 20px 0;
+    margin-top: 5%;
+    
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo a{
+    font-size: 50px;
+    color: red;
+    text-decoration: none;
+}
+
+
+.footer-navigation {
+    margin-top: 15px;
+    margin-right: 20%;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer-menu li {
+    margin-right: 50%;
+}
+
+
+.footer-menu a {
+    color: red;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 30px;
+
+}
+.footer-menu p{
+    font-size: 20px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+/* .social-icons li {
+    margin-right: 10px;
+} */
+
+/* .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+} */
+
+/* .social-icons a:hover {
+    color: #ff9900;
+} */
+
+.footer-disclaimer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-disclaimer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Font Awesome Icons */
+.social-icons a i {
+    font-size: 20px;
+}

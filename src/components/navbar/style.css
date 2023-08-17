@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    background-color: rgb(255,240,233);
+}
+.navbar h3:hover{
+cursor: pointer;
+text-decoration: underline 3px red;
+transition: .4s;
+}
+
+#foodle{
+    margin-right: 10%;
+    margin-left: -20%;
+}
+.btns button{
+    
+    margin-left: 1%;
+   padding-left: 35%;
+   padding-right: 35%;
+   padding-top: 5%;
+   padding-bottom: 5%;
+   font-size: 18px;
+   border-radius: 15px;
+   border: none;
+   background-color: transparent;
+   color: red;
+
+}
+.btns button:hover{
+    border: solid 2px red;
+    cursor: pointer;
+    transition: .4s;
+}
+.btns{
+    display: flex;
+    gap: 5%;
+    margin-right: -5%;
+}
